@@ -1,0 +1,115 @@
+.newsletter-popup {
+    width:80%;
+    max-width: 1380px;
+    height: 90%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 1px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background: var(--secondary-products-light);
+
+    position: fixed;
+    z-index: 9999; /* make pop up appear over everything */
+    transform: translate(-50%, -50%); /* center the popup in the middle of the screen */
+    top: 50%;
+    left: 50%;
+    display:block;
+}
+
+/*banner section*/
+
+.header-banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1380px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto 20px auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+
+}
+.header-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.header-banner .title {
+    position: absolute;
+    color: #FFFFF0;
+    text-shadow: 0 0 10px rgba(0,0,0,0.7);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-family: "Gwendolyn", cursive;
+    font-size: 120px;
+}
+
+.header-banner .close-btn{
+    position: absolute;
+    border: 1px solid var(--wine-red);
+    border-radius: 8px;
+    background: white;
+    z-index: 9999;
+    top: 10px;
+    right: 10px;
+    font-family: Comfortaa, sans-serif;
+}
+
+
+.subheading {
+    margin-top: 10px;
+    overflow: hidden;
+    color: #FFFFF0;
+    font-size: 36px;
+    font-family: "Lora", sans-serif;
+}
+
+/*content body section*/
+
+.content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+.content-section img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.date, .edition{
+    text-align: start;
+    color: #FFFFF0;
+    font-family: "Lora", sans-serif;
+    padding-left:20px
+
+}
+.body {
+    flex: 1 1 300px;
+    min-width: 200px;
+    text-align: left;
+    color: #FFFFF0;
+    font-family: "Comfortaa", sans-serif;
+}
+
+@media (max-width: 768px) {
+    .header-banner .title {
+        font-size: 80px;
+    }
+}
