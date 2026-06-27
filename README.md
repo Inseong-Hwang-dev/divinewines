@@ -1,3 +1,75 @@
+<img width="1377" height="750" alt="divinevines-cover" src="https://github.com/user-attachments/assets/ebd827d1-dd66-4695-8804-9259d60fb24d" />
+
+# DivineVines
+
+DivineVines is an e-commerce web application built for an Australian wine business selling products internationally.
+
+The platform was designed to support the full online purchasing flow, from browsing wine products to account-based checkout, international shipping calculation, and secure payment processing.
+
+## Overview
+
+Buying wine internationally can involve extra steps such as shipping cost calculation, address validation, postcode compatibility checks, and secure payment handling.
+
+DivineVines was built to bring these steps into one checkout flow, helping customers place international orders more smoothly while reducing manual work for the business.
+
+## Key Features
+
+- Browse wine products and view product details
+- User account and authentication workflows
+- Shopping cart and checkout flow
+- International shipping cost calculation using the Australia Post API
+- Address validation and postcode compatibility checks
+- Secure payment processing through Stripe
+- Database-backed order and customer workflows
+- MVC-based application structure using CakePHP
+
+## Tech Stack
+
+- **Backend:** PHP, CakePHP
+- **Database:** MySQL
+- **APIs:** Australia Post API, Stripe API
+- **Architecture:** MVC
+- **Collaboration:** GitHub, Agile team workflow
+
+## My Contribution
+
+I worked as the **Main Software Developer and Team Lead** in a team of five.
+
+My main responsibilities included:
+
+- Leading backend development and helping establish a shared CakePHP MVC structure for the team
+- Designing checkout-related workflows for orders, shipping, payments, and account-based user flows
+- Integrating the Australia Post API to calculate international shipping costs during checkout
+- Implementing address validation and postcode compatibility checks to reduce checkout errors
+- Integrating Stripe to support secure payment processing
+- Coordinating technical decisions and keeping development workflows consistent across the project
+
+## What I Learned
+
+This project gave me practical experience building features that need to work together in a real e-commerce flow.
+
+In particular, I learned how to:
+
+- Design backend workflows around real user actions instead of isolated features
+- Integrate third-party APIs into a production-style checkout process
+- Handle validation and edge cases that affect order accuracy
+- Work within a shared MVC codebase as part of a development team
+- Balance technical implementation with the business needs of an online store
+
+## Screenshots
+
+> Add screenshots here showing the product browsing page, cart, checkout flow, shipping calculation, and payment screen.
+
+<!--
+![Product Page](./screenshots/product-page.png)
+![Checkout](./screenshots/checkout.png)
+![Shipping Calculation](./screenshots/shipping.png)
+-->
+
+## Project Context
+
+This project was developed as a university team project at Monash University.
+
 # CakePHP Application Skeleton
 
 ![Build Status](https://github.com/cakephp/app/actions/workflows/ci.yml/badge.svg?branch=5.x)
